@@ -1,3 +1,4 @@
+
 *{
     text-decoration: none;
     font-family: sans-serif;
@@ -7,8 +8,6 @@
     flex-direction: column;
     margin: auto;
     align-items: center;
-
-
 }
 .header{
     background-color: white;
@@ -16,10 +15,6 @@
     color:#ffff;
     border-radius: 15px;
     padding: 5px;
-}
-.main-h1{
-    font-size: 2.9rem;
-    color: orangered;
 }
 .menu{
     background-color: black;
@@ -35,3 +30,43 @@
 .menu-a:hover{
     text-decoration:underline;
 }
+.img-fundo{
+    background-image: url(./img/DALL·E\ 2023-02-10\ 09.09.30\ -\ continue.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+}   
+.logo{
+    width: 15rem;
+}
+@media only screen and (max-width: 1200px) {
+    .logo{
+        width: 12rem;
+    }
+    .menu-a{
+    
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .logo{
+        width: 10rem;
+    }
+
+  }
+  @media only screen and (max-width: 768px) {
+    .logo{
+        width: 9rem;
+    }
+  }
+  @media only screen and (max-width: 580px) {
+    .menu-a{
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .menu-a{
+        font-size: 14px;
+    }
+    
+    }
