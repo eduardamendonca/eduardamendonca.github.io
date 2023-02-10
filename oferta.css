@@ -103,32 +103,127 @@ footer{
     flex-direction: column;
     padding:15px;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .logo{
         width: 200px;
+    }
+    .div-cen{
+        width: 80%;
     }
   }
+  @media only screen and (max-width: 1200px){
+    .main-div-img{
+        width: 30rem;
+    }
+    .div-cen{
+        width: 85%;
+    }
+}
   @media only screen and (max-width: 1024px) {
+    .img-div1{
+        background-color: orangered;
+        border-radius: 50px;
+        padding: 0rem 0rem 1rem 3rem;
+    }
+    .img-div2{
+        background-color: orangered;
+        border-radius: 550px;
+        padding: 0rem 0rem 1rem 3rem;
+    }
     .logo{
         width: 200px;
     }
+    .div-cen{
+        width: 90%;
+    }
+    .main-div-img{
+        width: 20rem;
   }
   @media only screen and (max-width: 768px) {
     .logo{
         width: 200px;
     }
-  }
-  @media only screen and (max-width: 580px) {
-    .logo{
-        width: 400px;
+    .div-cen{
+        width: 90%;
+    }
+    .main-h1{
+        font-size: 2.2rem;
+    }
+    .main-div-img{
+        width: 25rem;
+    }
+    img{
+        border-radius: 30px;
+    }
+    .img-div1{
+        background-color: orangered;
+        border-radius: 50px;
+        padding: 0rem 0.5rem .5rem 0.5rem;
+    }
+    .img-div2{
+        background-color: orangered;
+        border-radius: 50px;
+        padding: 0rem 0.5rem .5rem 0.5rem;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
     }
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
+    .logo{
+        width: 300px;
+    }
+    .main-div-img{
+        width: 22rem;
+    }
+    .div-cen{
+        width: 95%;
+    }
+  }
+  @media only screen and (max-width: 450px) {
     .logo{
         width: 200px;
     }
     .div-cen{
         width: 100%;
+    }
+    .main-h1{
+        font-size: 2rem;
+    }
+    .main-div-img{
+        width: 18rem;
+    }
+    img{
+        border-radius: 30px;
+    }
+    .img-div1{
+        background-color: orangered;
+        border-radius: 50px;
+        padding: 0rem 0.5rem .5rem 0.5rem;
+    }
+    .img-div2{
+        background-color: orangered;
+        border-radius: 50px;
+        padding: 0rem 0.5rem .5rem 0.5rem;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .logo{
+        width: 150px;
+    }
+    .div-cen{
+        width: 101%;
     }
     .main-h1{
         font-size: 2rem;
